@@ -21,93 +21,115 @@
     </header>
 
     <form action="" method="get">
-
-
-        First Name:
-        <input type="text" name="" id=""><br>
-        Last Name:
-        <input type="text" name="" id=""><br>
-        Date of Birth:
-        <input type="date" name="" id=""><br>
-        Email:
-        <input type="email" name="" id=""><br>
-        
-        Gender:
-        <input type="radio" name="gender" id="">
-        <label for="female">Male</label>
-        <input type="radio" name="gender" id="">
-        <label for="female">Female</label>
+        <!-- Person Details -->
+        <div class="dts">
+            First Name:
+            <input type="text" name="" id=""><br>
+            Last Name:
+            <input type="text" name="" id=""><br>
+            Date of Birth:
+            <input type="date" name="" id=""><br>
+            Gender:
+            <input type="radio" name="gender" id="">
+            <label for="female">Male</label>
+            <input type="radio" name="gender" id="">
+            <label for="female">Female</label>
+            <br>
+            Email:
+            <input type="email" name="" id=""><br>
+        </div>
         <br>
         
-        Postal Address:
-        <input type="text" name="" id=""><br>
-        Physical Address:
-        <input type="text" name="" id=""><br>
-        <label for="">Home District</label>
-        <select name="" id="">
-            <optgroup label="Central Region" >
-                <option value="">Dedza</option>
-                <option value="">Dowa</option>
-                <option value="">Kasungu</option>
-                <option value="">Lilongwe</option>
-                <option value="">Mchinji</option>
-                <option value="">NKhotakota</option>
-                <option value="">Ntcheu</option>
-                <option value="">Ntchisi</option>
-                <option value="">Salima</option>
-            </optgroup>
-            <optgroup label="Northern Region">
-                <option value="">Chitipa</option>
-                <option value="">Karonga</option>
-                <option value="">Likoma</option>
-                <option value="">Mzimba</option>
-                <option value="">Nkhata Bay</option>
-                <option value="">Rumphi</option>
-            </optgroup>
-            <optgroup label="Southern Region">
-                <option value="">Balaka</option>
+        <!-- Addresses -->
+        <div class="dts">
+            Postal Address:
+            <input type="text" name="" id=""><br>
+            Physical Address:
+            <input type="text" name="" id=""><br>
+            <label for="">Home District</label>
+            <select name="" id="">
+                <optgroup label="Central Region" >
+                    <option value="">Dedza</option>
+                    <option value="">Dowa</option>
+                    <option value="">Kasungu</option>
+                    <option value="">Lilongwe</option>
+                    <option value="">Mchinji</option>
+                    <option value="">NKhotakota</option>
+                    <option value="">Ntcheu</option>
+                    <option value="">Ntchisi</option>
+                    <option value="">Salima</option>
+                </optgroup>
+                <optgroup label="Northern Region">
+                    <option value="">Chitipa</option>
+                    <option value="">Karonga</option>
+                    <option value="">Likoma</option>
+                    <option value="">Mzimba</option>
+                    <option value="">Nkhata Bay</option>
+                    <option value="">Rumphi</option>
+                </optgroup>
+                <optgroup label="Southern Region">
+                    <option value="">Balaka</option>
+                    <option value="">Blantyre</option>
+                    <option value="">Chikhwawa</option>
+                    <option value="">Chiradzulu</option>
+                    <option value="">Machinga</option>
+                    <option value="">Mangochi</option>
+                    <option value="">Mulanje</option>
+                    <option value="">Mwanza</option>
+                    <option value="">Nsanje</option>
+                    <option value="">Thyolo</option>
+                    <option value="">Phalombe</option>
+                    <option value="">Zomba</option>
+                    <option value="">Neno</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+
+        <!-- Contacts -->
+        <div class="dts">
+            Phone Numbers <br>
+            Main:
+            <input type="tel" name="" id=""><br>
+            Alternate:
+            <input type="tel" name="" id=""><br>
+            Emergency Contact:
+            <input type="tel" name="" id=""><br>
+        </div>
+        <br>
+        
+        <!-- School Details -->
+        <div class="dts">
+            <label for="">Campus:</label>
+            <select name="" id="">
                 <option value="">Blantyre</option>
-                <option value="">Chikhwawa</option>
-                <option value="">Chiradzulu</option>
-                <option value="">Machinga</option>
-                <option value="">Mangochi</option>
-                <option value="">Mulanje</option>
-                <option value="">Mwanza</option>
-                <option value="">Nsanje</option>
-                <option value="">Thyolo</option>
-                <option value="">Phalombe</option>
-                <option value="">Zomba</option>
-                <option value="">Neno</option>
-            </optgroup>
-        </select>
-        
-        Phone Numbers
-        Main:
-        <input type="tel" name="" id=""><br>
-        Alternate:
-        <input type="tel" name="" id=""><br>
-        Emergency Contact:
-        <input type="tel" name="" id=""><br>
+                <option value="">Lilongwe</option>
+                <option value="">Mzuzu</option>
+            </select>
+            <br>
 
-        <label for="">Programme:</label>
-        <select name="" id="">
-            <option value="">prog 1</option>
-            <option value="">prog 2</option>
-            <option value="">prog 3</option>
-            <option value="">prog 4</option>
-            <option value="">prog 5</option>
-            <option value="">prog 6</option>
-            <option value="">prog 7</option>
-            <option value="">prog 8</option>
-            <option value="">prog 9</option>
-            <option value="">prog 10</option>
-        </select>
-        <br>
+            <label for="">Programme:</label>
+            <select name="" id="">
+                <option value="">Diploma in Hospitality Management</option>
+                <option value="">Diploma in Hospitality Management (WEEKEND)</option>
+                <option value="">Diploma in Travel and Tourism Management</option>
+                <option value="">Diploma in Professional Cookery</option>
+                <option value="">Certificate in Professional Cookery</option>
+                <option value="">IATA</option>
+                <option value="">Certificate in Hotel Operations</option>
+            </select>
+            <br>
        
-        Receipt Number:
-        <input type="text" name="" id="" maxlength="6"><br>
-        <button>Submit</button>
-        <button>Cancel</button>
+            Receipt Number:
+            <input type="text" name="" id="" maxlength="6">
+        </div>
+        <br>
+
+        <!-- Buttons -->
+        <div class="btns">
+            <button>Submit</button>
+            <button>Cancel</button>
+        </div>   
     </form>
 
     <footer>
