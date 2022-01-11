@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Enrollment</title>
 </head>
 <body>
@@ -23,31 +25,37 @@
     <form action="" method="get">
         <!-- Person Details -->
         <div class="dts">
-            First Name:
-            <input type="text" name="" id=""><br>
-            Last Name:
-            <input type="text" name="" id=""><br>
-            Date of Birth:
-            <input type="date" name="" id=""><br>
-            Gender:
-            <input type="radio" name="gender" id="">
+            <label for="fname">First Names:</label>
+            <input type="text" name="fname" id="fname"><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"><br>
+            
+            <label for="gender">Gender:</label> 
+            <input type="radio" name="gender" id="female" value="F">
             <label for="female">Male</label>
-            <input type="radio" name="gender" id="">
+            <input type="radio" name="gender" id="male" value="M">
             <label for="female">Female</label>
             <br>
-            Email:
-            <input type="email" name="" id=""><br>
+
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail"><br>
         </div>
         <br>
         
         <!-- Addresses -->
         <div class="dts">
-            Postal Address:
-            <input type="text" name="" id=""><br>
-            Physical Address:
-            <input type="text" name="" id=""><br>
-            <label for="">Home District</label>
-            <select name="" id="">
+            <label for="postal">Postal Address:</label>
+            <input type="text" name="postal" id="postal"><br>
+
+            <label for="physical">Pysical Address</label>
+            <input type="text" name="physical" id="physical"><br>
+
+            <label for="district">Home District</label>
+            <select name="district" id="district">
                 <optgroup label="Central Region" >
                     <option value="">Dedza</option>
                     <option value="">Dowa</option>
@@ -89,46 +97,48 @@
         <!-- Contacts -->
         <div class="dts">
             Phone Numbers <br>
-            Main:
+            <label for="main">Main:</label>
             <input type="tel" name="" id=""><br>
-            Alternate:
-            <input type="tel" name="" id=""><br>
-            Emergency Contact:
-            <input type="tel" name="" id=""><br>
+
+            <label for="alternate">Alternate:</label>
+            <input type="tel" name="alternate" id="alternate"><br>
+
+            <label for="emg">Emergency Contact:</label>
+            <input type="tel" name="emg" id="emg"><br>
         </div>
         <br>
         
         <!-- School Details -->
         <div class="dts">
-            <label for="">Campus:</label>
-            <select name="" id="">
-                <option value="">Blantyre</option>
-                <option value="">Lilongwe</option>
-                <option value="">Mzuzu</option>
+            <label for="campus">Campus:</label>
+            <select name="campus">
+                <option value="BT">Blantyre</option>
+                <option value="LL">Lilongwe</option>
+                <option value="MZ">Mzuzu</option>
             </select>
             <br>
 
-            <label for="">Programme:</label>
-            <select name="" id="">
-                <option value="">Diploma in Hospitality Management</option>
-                <option value="">Diploma in Hospitality Management (WEEKEND)</option>
-                <option value="">Diploma in Travel and Tourism Management</option>
-                <option value="">Diploma in Professional Cookery</option>
-                <option value="">Certificate in Professional Cookery</option>
-                <option value="">IATA</option>
-                <option value="">Certificate in Hotel Operations</option>
+            <label for="programme">Programme:</label>
+            <select name="Programme">
+                <option value="DHM">Diploma in Hospitality Management</option>
+                <option value="DHMU">Diploma in Hospitality Management (WEEKEND)</option>
+                <option value="TTM">Diploma in Travel and Tourism Management</option>
+                <option value="DPC">Diploma in Professional Cookery</option>
+                <option value="CPC">Certificate in Professional Cookery</option>
+                <option value="IATA">IATA</option>
+                <option value="CHO">Certificate in Hotel Operations</option>
             </select>
             <br>
        
-            Receipt Number:
-            <input type="text" name="" id="" maxlength="6">
+            <label for="receipt">Receipt Number:</label>
+            <input type="text" name="receipt" id="receipt" maxlength="6">
         </div>
         <br>
 
         <!-- Buttons -->
         <div class="btns">
-            <button>Submit</button>
-            <button>Cancel</button>
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
         </div>   
     </form>
 
