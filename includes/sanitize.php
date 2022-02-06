@@ -1,5 +1,4 @@
 <?php
-    $sample  = '<a href="https://www.w3schools.com">Go to w3schools.com</a>';
 
     function sanitizeString($var)
     {
@@ -12,7 +11,7 @@
 
     function sanitizeInt($var)
     {
-        $var = filter_var($var, FILTER_SANITIZE_NUMBER_INT);
+        $var = filter_var(preg_replace('~^[^-\d]|(?<!^)\D~', '', $var), FILTER_SANITIZE_NUMBER_INT);
 
         return $var;
     }
