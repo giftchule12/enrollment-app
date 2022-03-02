@@ -20,30 +20,65 @@ header nav{
     flex-direction: row;
 }
 
-a{
+header>nav>ul>li>a, a:hover, a:visited{
     text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
 }
 
 form{
     /* background-color: grey; */
-    box-shadow: 0.1rem 0 0.5rem 0.1rem  pink;
-    /* margin-top: 10rem; */
-    padding: 1rem;
-    margin-top: 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    box-shadow: 0.1rem 0 0.5rem 0.1rem lightslategray;
+    /* padding: 0 5rem 1rem 2rem; */
+    margin: 1rem auto 1rem auto;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+label{
+    display: inline-block;
+    padding-top: 0.8rem;
+}
+
+.dts{
+    /* background-color: crimson; */
+    padding: 0 2rem 0 2rem;
+}
+
+h2{
+    /* background-color: lightgreen; */
+    text-align: center;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.btns{
+    text-align: center;
+}
+
+.g-recaptcha{
+    padding: 0 2rem 0 2rem;
+
+}
+
+button{
+    margin-top: 0.5rem;
+}
 
 footer{
-    /* background-color: crimson; */
+    background-color: black;
     bottom: 0;
     height: 5.5rem;
 }
 
-footer ul{
-    list-style: none;
+footer>nav>ul>li>a, a:hover, a:visited{
+    text-decoration: none;
+    color: #fff;
 }
