@@ -25,36 +25,38 @@
     <form action="process/form.php" method="post">
         <!-- Person Details -->
         <div class="dts">
-            <label for="fname">First Names:</label>
+            <h2 class="section-header">Personal Information</h2>
+            <label for="fname">First Names:</label><br>
             <input type="text" name="fname" id="fname"><br>
 
-            <label for="lname">Last Name:</label>
+            <label for="lname">Last Name:</label><br>
             <input type="text" name="lname" id="lname"><br>
 
-            <label for="dob">Date of Birth:</label>
+            <label for="dob">Date of Birth:</label><br>
             <input type="date" name="dob" id="dob"><br>
             
-            <label for="gender">Gender:</label> 
+            <label for="gender">Gender:</label>
             <input type="radio" name="gender" id="male" value="M">
             <label for="female">Male</label>
             <input type="radio" name="gender" id="female" value="F" checked="true">
             <label for="female">Female</label>
             <br>
 
-            <label for="email">Email:</label>
+            <label for="email">Email:</label><br>
             <input type="email" name= "email" id="email"><br>
         </div>
         <br>
         
         <!-- Addresses -->
         <div class="dts">
-            <label for="postal">Postal Address:</label>
+            <h2 class="section-header">Personal Addresses</h2>
+            <label for="postal">Postal Address:</label><br>
             <input type="text" name="postal" id="postal"><br>
 
-            <label for="physical">Pysical Address:</label>
+            <label for="physical">Physical Address:</label><br>
             <input type="text" name="physical" id="physical"><br>
 
-            <label for="district">Home District:</label>
+            <label for="district">Home District:</label><br>
             <select name="district" id="district">
                 <optgroup label="Central Region" >
                     <option value="">Dedza</option>
@@ -96,21 +98,22 @@
 
         <!-- Contacts -->
         <div class="dts">
-            Phone Numbers <br>
-            <label for="main">Main:</label>
+            <h2 class="section-header">Contact Information</h2>
+            <label for="main">Main:</label><br>
             <input type="tel" name="main" id="main"><br>
 
-            <label for="alternate">Alternate:</label>
+            <label for="alternate">Alternate:</label><br>
             <input type="tel" name="alternate" id="alternate"><br>
 
-            <label for="emg">Emergency Contact:</label>
+            <label for="emg">Emergency Contact:</label><br>
             <input type="tel" name="emg" id="emg"><br>
         </div>
         <br>
         
         <!-- School Details -->
         <div class="dts">
-            <label for="campus">Campus:</label>
+            <h2 class="section-header">School Details</h2>
+            <label for="campus">Campus:</label><br>
             <select name="campus">
                 <option value="BT">Blantyre</option>
                 <option value="LL">Lilongwe</option>
@@ -118,7 +121,7 @@
             </select>
             <br>
 
-            <label for="prog">Programme:</label>
+            <label for="prog">Programme:</label><br>
             <select name="prog">
                 <option value="DHM">Diploma in Hospitality Management</option>
                 <option value="DHMU">Diploma in Hospitality Management (WEEKEND)</option>
@@ -130,7 +133,7 @@
             </select>
             <br>
        
-            <label for="intake">Intake Year:</label>
+            <label for="intake">Intake Year:</label><br>
             <select name="intake" id="intake">
                 <option value="2018">2018</option>
                 <option value="2019">2019</option>
